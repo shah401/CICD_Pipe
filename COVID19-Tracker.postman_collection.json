@@ -13,8 +13,8 @@
 					"script": {
 						"id": "1508b58e-df84-4750-92c3-82b11192c126",
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
 							"});\r",
 							"pm.globals.get(\"variable_key\");"
 						],
